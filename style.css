@@ -1,0 +1,88 @@
+html {
+	background: gray;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.data {
+	background: black;
+	color: silver;
+	display: inline-block;
+	position: absolute;
+	padding: 40px 20px 20px 40px;
+	left: -20px;
+	top: -20px;
+	border-radius: 20px;
+	box-shadow: 25px 25px 25px rgba(0,0,0,0.5);
+}
+
+.data input {
+	background: black;
+	color: white;
+	margin: 5px;
+	border-bottom-right-radius: 10px;
+}
+
+.custom input[type="text"] {
+	width: 4em;
+	border: 1px solid silver;
+}
+
+.custom table {
+	border-collapse: collapse;
+	font-family: serif;
+}
+
+.custom table, .custom tr, .custom td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.custom td {
+	text-align: right;
+	padding-left: 1em;
+}
+
+.custom tr:first-child {
+	border-bottom: 1px solid silver;
+}
+
+.custom td:nth-child(3),
+.custom td:nth-child(4) {
+	text-align: center;
+}
+
+.custom .buttons {
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+.scene {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate3d(0, 0, 0);
+	transform-style: preserve-3d;
+}
+
+
+.shape {
+}
+
+.ellipse {
+	border-radius: 50% 50%;
+}
+
+
+.orbit {
+	position: absolute;
+}

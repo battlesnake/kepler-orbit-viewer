@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Elliptic orbit playground</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="Dynamics.js"></script>
+		<script src="Orbit.js"></script>
+		<script src="Data.js"></script>
+		<script src="Renderer.js"></script>
+		<script src="Main.js"></script>
+	</head>
+	<body>
+		<div class="scene">
+		</div>
+		<div class="data">
+			<form class="custom">
+				<table>
+					<tr>
+						<td>Parameter name</td>
+						<td>Symbol</td>
+						<td>Value</td>
+						<td>Animate</td>
+					</tr>
+					<tr>
+						<td>inclination</td>
+						<td>i</td>
+						<td><input type="text" class="arg" name="i"></td>
+						<td><input type="radio" class="animate" name="animate" value="i"></td>
+					</tr>
+					<tr>
+						<td>right-ascension of ascending node</td>
+						<td>Ω</td>
+						<td><input type="text" class="arg" name="Ω"></td>
+						<td><input type="radio" class="animate" name="animate" value="Ω"></td>
+					</tr>
+					<tr>
+						<td>argument of perigee</td>
+						<td>ω</td>
+						<td><input type="text" class="arg" name="ω"></td>
+						<td><input type="radio" class="animate" name="animate" value="ω"></td>
+					</tr>
+					<tr>
+						<td>semi-major axis</td>
+						<td>a</td>
+						<td><input type="text" class="arg" name="a"></td>
+						<td><input type="radio" class="animate" name="animate" value="a"></td>
+					</tr>
+					<tr>
+						<td>eccentricity</td>
+						<td>e</td>
+						<td><input type="text" class="arg" name="e"></td>
+						<td><input type="radio" class="animate" name="animate" value="e"></td>
+					</tr>
+					<tr>
+						<td>mean anomaly</td>
+						<td>M</td>
+						<td><input type="text" class="arg" name="M"></td>
+						<td><input type="radio" class="animate" name="animate" value="M"></td>
+					</tr>
+				</table>
+				<div class="buttons">
+					<input type="button" class="update-sat" value="Update">
+					<input type="button" class="no-animate" value="Stop animation">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
