@@ -128,6 +128,9 @@
 		for (const orbit of Object.values(orbits)) {
 			renderer.update_orbit(orbit);
 		}
+
+		/* Animate mean-anomaly */
+		animate.select('M');
 	}
 
 	window.addEventListener('load', init);
