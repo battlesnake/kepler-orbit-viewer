@@ -57,7 +57,7 @@ const orbits = [
 		Ω: -10,
 		ω: -30,
 		a: 600,
-		e: 0.4,
+		e: 0.7,
 		style: {
 			border: '2px solid black',
 			opacity: 0.9,
