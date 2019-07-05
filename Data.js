@@ -53,8 +53,11 @@ const orbits = [
 	},
 	{
 		name: 'Satellite',
-		i: 30,
-		a: 300,
+		i: 15,
+		Ω: -10,
+		ω: -30,
+		a: 500,
+		e: 0.5,
 		style: {
 			border: '2px solid black',
 			opacity: 0.9,
